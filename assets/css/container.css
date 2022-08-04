@@ -1,44 +1,36 @@
 /* main content with css + flex */
 
+/* Hero section */
 .content1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-    max-width: 68.75rem;
-    margin: auto;
-
-    margin-top: -4rem;
-    flex-direction: column;
-    gap: 0;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
 }
 
 .content1 img {
-    height: 37.5rem;
-    width: 37rem;
+  height: 37.5rem;
+  width: 37.5rem;
+}
 
-  }
-  
-  .bio {
-    width: 25rem;
-    padding: 0.625rem;
-    border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+.bio {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
 
-    margin-top: 2rem;
-    width: 30.5rem;
-  }
-  
-  .bio h1 {
-    margin-bottom: var(--bottom-margin);
-  }
-  
-  .bio p {
-    line-height: var(--line-height);
-    padding: 0.1rem 0;
-  }
+.bio h1 {
+  margin-bottom: var(--bottom-margin);
+}
 
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+/* Hero section ends */
   /* Outside box CSS */
 
   .more-about {
@@ -159,7 +151,7 @@
     }
   
     .bio {
-      margin-top: -7rem;
+      margin-top: 2rem;
       width: 20.5rem;
     }
   
@@ -186,7 +178,7 @@
   
   @media screen and (max-width: 420px) {
     .content1 img {
-      height: 37.5rem;
+      height: 30.5rem;
       width: 23rem;
     }
   

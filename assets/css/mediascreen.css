@@ -1,0 +1,79 @@
+/* Media queries for responsiveness */
+@media screen and (max-width: 720px) {
+    nav {
+      padding: 1.5rem 1rem;
+    }
+    nav ul {
+      position: fixed;
+      background-color: var(--bg-color);
+      flex-direction: column;
+      top: 88px;
+      right: 0;
+      width: 90%;
+      text-align: center;
+      transform: translateX(120%);
+      transition: transform 0.5s ease-in;
+    }
+  
+    nav ul li {
+      margin: 3px;
+    }
+  
+    .burger-menu {
+      display: block;
+    }
+  
+    nav ul.show {
+      transform: translateX(0);
+    }
+  
+    .content1 {
+      margin-top: -4rem;
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .content1 img {
+     
+      height: 37.5rem;
+      width: 30rem;
+    }
+  
+    .bio {
+        margin-top: 5rem;
+      width: 20.5rem;
+    }
+  
+    .more-about {
+      margin-top: 2rem;
+      padding: 1rem 3.5rem;
+    }
+  
+    .more-about h2 {
+      text-align: center;
+    }
+  
+    .more-about p {
+      text-align: justify;
+    }
+  
+    .icon {
+      width: 5.875rem;
+      height: 5.25rem;
+    }
+  
+    
+  }
+  
+  @media screen and (max-width: 420px) {
+    .content1 img {
+        margin-top: 10rem;
+      height: 30.5rem;
+      width: 23rem;
+    }
+  
+    .bio {
+      width: 18.3rem;
+    }
+  
+  }

@@ -9,8 +9,6 @@ burger.addEventListener("click", () => {
   });
 
   // Close hamburger menu when a link is clicked
-
-// Select nav links
 const navLink = document.querySelectorAll(".nav-link");
 
 navLink.forEach((link) =>
@@ -18,3 +16,6 @@ navLink.forEach((link) =>
     ul.classList.remove("show");
   })
 );
+
+
+

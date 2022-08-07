@@ -1,0 +1,14 @@
+ /* css design for sidebar contact me icon */
+
+ .socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 1%;
+    bottom: 50%;
+  }
+  
+  .socicon {
+    width: 2rem;
+    height: 2rem;
+  }

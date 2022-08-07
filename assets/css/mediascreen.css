@@ -7,9 +7,9 @@
       position: fixed;
       background-color: var(--bg-color);
       flex-direction: column;
-      top: 88px;
+      top: 104px;
       right: 0;
-      width: 90%;
+      width: 93%;
       text-align: center;
       transform: translateX(120%);
       transition: transform 0.5s ease-in;

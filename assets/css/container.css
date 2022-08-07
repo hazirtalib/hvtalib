@@ -6,7 +6,8 @@
 
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  --font-family: "Gentleman Regular";
+
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -52,7 +53,7 @@ body {
   /* background-color: var(--contrainer-color); */
 }
 
-.w-logo{
+#w-logo{
   width: 3.075rem;
     height: 3.25rem;
 }
@@ -91,14 +92,29 @@ height: 300px;
  
 }
 
+
 .bio h1 {
   margin-bottom: var(--bottom-margin);
+  
+}
+
+.bio h2 {
+  margin-bottom: var(--bottom-margin);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+}
+.bio h3 {
+  margin-bottom: var(--bottom-margin);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 35px;
 }
 
 .bio p {
  
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
 }
 /* Hero section ends */
   /* Outside box CSS */

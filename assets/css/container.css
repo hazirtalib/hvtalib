@@ -22,6 +22,14 @@
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
+
+*, ::after,  ::before{
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* Variables end */
 
 html {
@@ -44,11 +52,9 @@ body {
   /* background-color: var(--contrainer-color); */
 }
 
-*, ::after,  ::before{
-    box-sizing: border-box;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+.w-logo{
+  width: 3.075rem;
+    height: 3.25rem;
 }
 
 /* Hero section */
@@ -67,6 +73,15 @@ body {
   margin: 1rem;
   height: 30.5rem;
   width: 37.5rem;
+  
+}
+
+.imagefront {
+  background-image: url("/assets/images/nature1.jpg");
+  background-color: #6DB3F2;
+width: 300px;
+height: 300px;
+
 }
 
 .bio {

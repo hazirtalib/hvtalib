@@ -13,7 +13,7 @@
   --bolder-font: 900;
   --bg-color: #16181a;
   --nav-color: #020202;
-  --contrainer-color: #212121;
+  --container-color: #212121;
   --primary-color: #ffffff;
   --secondary-color: #d3b49b;
   --primary-shadow: #8b8eaf;
@@ -67,7 +67,7 @@ body {
   gap: 2.5rem;
   /* max-width: 68.75rem; */
   
-  background-color: var(--contrainer-color);
+  background-color: var(--container-color);
 }
 
 .content1 img {
@@ -77,13 +77,6 @@ body {
   
 }
 
-.imagefront {
-  background-image: url("/assets/images/nature1.jpg");
-  background-color: #6DB3F2;
-width: 300px;
-height: 300px;
-
-}
 
 .bio {
   width: 25rem;
@@ -120,7 +113,8 @@ height: 300px;
   /* Outside box CSS */
 
   .more-about {
-    
+    margin-top: 2rem;
+    background-color: var(--container-color);
     padding: 2rem 5rem;
   }
   
@@ -165,6 +159,75 @@ height: 300px;
     padding: 20px;
     margin: 10px;
   }
+
+  /* Contacts section */
+.contact {
+  margin-top: 2rem;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: var(--bottom-margin-2);
+}
+
+.contact-form-container {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  background-color: var(--container-color); 
+  
+}
+
+.contact-form-container label {
+  line-height: 2.7em;
+  font-weight: var(--bold-font);
+  color: var(--primary-color);
+
+}
+
+.contact-form-container textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+  
+}
+
+.contact-form-container .input-field {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px outset var(--primary-color);
+  font-size: 0.875rem;
+  outline: none;
+  
+}
+
+.input-field::placeholder {
+  padding: 0.5rem;
+  color: var(--primary-color);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+
+.submit-btn:hover {
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+}
+/* Contacts section ends */
 
  
   

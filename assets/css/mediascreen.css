@@ -69,6 +69,37 @@
       left: 1%;
       bottom: 40%;
     }
+
+    .button {
+      display: block;
+      width: 190px;
+      height: 30px;
+      background: var(--bg-color);
+      padding: 3px;
+      margin-top: 5px;
+      margin-left: 55px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      line-height: 25px;
+    
+     
+    }
+    .projects-title {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    
+
+    .projects-container {
+      flex-direction: column;
+    }
+  
+    .project-container {
+      width: 20.875rem;
+    }
+    
     
   }
   
@@ -81,6 +112,39 @@
   
     .bio {
       width: 18.3rem;
+    }
+
+    .button {
+      display: block;
+      width: 190px;
+      height: 30px;
+      background: var(--container-color);
+      padding: 3px;
+      margin-top: 5px;
+      margin-left: 55px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      line-height: 25px;
+    
+     
+    }
+ 
+    
+  
+    .projects-title {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    
+
+    .projects-container {
+      flex-direction: column;
+    }
+  
+    .project-container {
+      width: 20.875rem;
     }
   
   }
